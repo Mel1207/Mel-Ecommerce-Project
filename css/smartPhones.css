@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#navbar {
+    background-color: transparent;
+    border: none;
+    transition: background-color 1s ease 0s;
+}
+#head {
+    background-image: url(/img/bgSmart1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-overlay {
+    background-color: rgba(33, 47, 60, 0.4);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+#head-text {
+    margin-top: 200px;
+}
+#products {
+    margin: 0;
+    padding: 0;
+    background: teal;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+#aboutUs {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+}

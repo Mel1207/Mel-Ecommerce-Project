@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+    <!--materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <link rel="stylesheet" href="css/accessories.css" type="text/css">
+    <title>My Ecommerce Project</title>
+</head>
+<body>
+    <!--Header Section-->
+    <section class="header scrollspy" id="head">
+        <div class="background-overlay">
+            <header class="main-header" id="home">
+                <div class="navbar-fixed">           
+                <nav class="transparent z-depth-1" id="navbar">
+                    <div class="container">
+                        <div class="brand-logo">Ecom</div>
+                        <a class="button-collapse" data-activates="mobile-nav">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right items hide-on-med-and-down" style="font-weight: bold; font-size: 40px;">
+                            <li><a href="#head">Home</a></li>
+                            <li><a href="#aboutUs">About us</a></li></li>
+                            <li><a href="#products" class="dropdown-button" data-activates="Products">Products</a>
+                                <ul id="Products" class="dropdown-content">
+                                    <li>
+                                        <a href="#products">Promos</a>
+                                        <a href="index.html">Laptops</a>
+                                        <a href="smartPhones.html">Mobiles</a>
+                                        <a href="accessories.html">Accessories</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="btn amber waves-effect waves-light modal-trigger" href="#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                </div> 
+                <div class="Head-text center">
+                    <div class="container" id="head-text">
+                        <h1 class="white-text" style="font-weight: bold;">Hello Shopper!</h1>
+                        <h4 class="white-text">Promo runs now!</h4>
+                        <a href="#products" class="btn waves-effect waves-light">Shop now</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <!--Side Nav Section-->
+    <ul class="side-nav teal show-on-medium-and-down collapsible" id="mobile-nav" data-collapsible="expandable">
+        <li><a href="#head">Home</a></li>
+        <li><a href="#aboutUs">About us</a></li>
+        <li>
+            <div class="collapsible-header teal black-text">
+                <a class="black-text">Products</a>
+            </div>
+            <div class="collapsible-body teal">
+                <ul>
+                    <li><a href="index.html">Laptops</a></li>
+                    <li><a href="smartPhones.html">Phones</a></li>
+                    <li><a href="#head">Accessories</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a class="btn amber waves-effect waves-light modal-trigger" href="#contacts">Contacts</a></li>
+    </ul>
+
+    <!--About Us Section-->
+    <section class="scrollspy teal" id="aboutUs">
+        <div class="container">
+            <div class="row center-align" style="padding: 50px;">
+                <div class="col s12 m4">
+                    <i class="fas fa-truck-moving medium grey-text text-lighten-3" style="padding: 20px"></i>
+                    <h5 class="white-text">Fast Delivery</h5>
+                    <span class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore numquam quisquam, eveniet nisi saepe facere.</span>
+                </div>
+                <div class="col s12 m4">
+                    <i class="fas fa-shield-alt medium grey-text text-lighten-3" style="padding: 20px"></i>
+                    <h5 class="white-text">Secured Transaction</h5>
+                    <span class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium minima impedit esse?</span>
+                </div>
+                <div class="col s12 m4">
+                    <i class="fas fa-users medium grey-text text-lighten-3" style="padding: 20px"></i>
+                    <h5 class="white-text">Proven and Trusted</h5>
+                    <span class="white-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, quisquam quaerat! Optio magnam quisquam minus quo tenetur vel error exercitationem.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Product Section-->
+    <section class="scrollspy products teal" id="products">
+        <img src="img/promoAccess.jpg" class="responsive-img" style="width: 100%;">
+        <div class="row scrollspy" id="laptops">
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/case.png" class="responsive-img">
+                        <a href="#" class="btn-floating waves-effect waves-light halfway-fab teal">
+                            <i class="material-icons">add_shopping_cart</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, consectetur!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/bag.png" class="responsive-img">
+                        <a href="#" class="btn-floating waves-effect waves-light halfway-fab teal">
+                            <i class="material-icons">add_shopping_cart</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, pariatur!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/headset.png" class="responsive-img">
+                        <a href="#" class="btn-floating waves-effect waves-light halfway-fab teal">
+                            <i class="material-icons">add_shopping_cart</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, ad?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/powerBank.png" class="responsive-img">
+                        <a href="#" class="btn-floating waves-effect waves-light halfway-fab teal">
+                            <i class="material-icons">add_shopping_cart</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <i class="fas fa-star amber-text"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, accusantium!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Modal Contact Section-->
+    <div class="modal" id="contacts">
+        <div class="modal-content">
+            <div class="row">
+                <h4>Send Us a Message</h4>
+                <div class="col s12 m6">
+                    <div class="input-field">
+                        <input type="text" id="name">
+                        <label for="name">First Name</label>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="input-field">
+                        <input type="text" id="name">
+                        <label for="name">Last Name</label>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <div class="input-field">
+                        <input type="text" id="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea class="materialize-textarea" id="message"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="" class="btn waves-effect waves-light amber">Submit</a>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <footer class="grey lighten-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4" style="padding: 15px;">
+                    <span class="teal-text" style="font-size: 25px;">Follow us</span>
+                    <ul style="padding: 15px;">
+                        <li>
+                            <a href="#" class="teal-text">
+                                <i class="fab fa-facebook medium blue-text text-darken-4 waves-effect waves-light"></i>  Like us on facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="teal-text">
+                                <i class="fab fa-instagram medium pink-text waves-effect waves-light"></i>  Capture us on Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="teal-text">
+                                <i class="fab fa-twitter medium blue-text text-lighten-3 waves-effect waves-light"></i>  Follow us on Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="teal-text">
+                                <i class="fab fa-youtube medium red-text waves-effect waves-light"></i>  Subscribe on our Channel
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4" style="padding: 15px;">
+                    <span class="teal-text" style="font-size: 25px;">Our Locations</span>
+                    <ul class="teal-text" style="font-size: 20px; padding: 30px;">
+                        <li>Manila</li>
+                        <li>Caloocan</li>
+                        <li>Bulacan</li>
+                        <li>Laguna</li>
+                        <li>Cebu</li>
+                        <li>Visayas Region</li>
+                        <li>Mindanao Region</li>
+                    </ul>
+                </div>
+                <div class="col s12 m4" style="padding: 15px;">
+                    <span class="teal-text" style="font-size: 25px;">Proudly Pinoy</span>
+                    <img src="img/PhMap.png" class="responsive-img" style="width: 100%; height: 280px;">
+                </div>
+            </div>
+        </div>
+        <div class="container-copyright grey lighten-2" style="padding: 5px;">
+            <div class="container">
+                <h5 class="teal-text center" style="font-size: 20px;">2019 Ecom Copyright</h5>
+            </div>
+        </div>
+    </footer>
+    
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/d787e0ace0.js" crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!--Script behavior functions-->
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-button').dropdown({
+            constrainWidth: false,
+            hover: true,
+            belowOrigin: true,
+            alignment: 'left'
+        });
+
+        //Navbar Transition of color
+        $(window).scroll(function() {
+            if($(this).scrollTop() > 100) {
+                $('nav').removeClass('transparent');
+                $('nav').addClass('teal');
+            } else {
+                $('nav').addClass('transparent');
+                $('nav').removeClass('teal');
+            }
+        });
+
+        // Modal Content Trigger
+        $('.modal').modal({
+            dismisseble: true,
+            inDuration: 300,
+            outDuration: 200,
+            ready: function (modal, trigger) {
+                console.log('modal Opened', modal, trigger)
+            }
+        });
+
+        // Scroll spy effect
+        $('.scrollspy').scrollSpy();
+        $('.carousel-slider').carousel();
+        $('.button-collapse').sideNav();
+        
+
+    });
+    </script>
+</body>
+</html>
